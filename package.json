@@ -1,0 +1,41 @@
+{
+  "name": "knappen-rpa-poc",
+  "version": "1.0.0",
+  "description": "Robot som hjelper deg inn/ut av MinTid",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telemark/knappen-rpa-poc.git"
+  },
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/telemark/knappen-rpa-poc/issues"
+  },
+  "homepage": "https://github.com/telemark/knappen-rpa-poc#readme",
+  "devDependencies": {
+    "ava": "0.22.0",
+    "coveralls": "2.13.1",
+    "nsp": "2.8.1",
+    "nyc": "11.2.1",
+    "standard": "10.0.3"
+  },
+  "dependencies": {
+    "nightmare": "2.10.0"
+  }
+}
