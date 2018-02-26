@@ -33,7 +33,7 @@
     "coveralls": "2.13.3",
     "nsp": "3.2.1",
     "nyc": "11.4.1",
-    "standard": "10.0.3"
+    "standard": "11.0.0"
   },
   "dependencies": {
     "nightmare": "2.10.0"
