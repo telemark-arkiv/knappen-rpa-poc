@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Robot som hjelper deg inn/ut av MinTid",
   "main": "index.js",
+  "private": true,
   "engines": {
     "node": ">=8.6.0"
   },
